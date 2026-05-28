@@ -1,0 +1,15 @@
+onset	duration	trial_type	value	sample
+0.005	0	Ojos cerrados	65	1
+79.87	0	discontinuity	2	15974
+211.685	0	Ojos abiertos	66	42337
+229.325	0	Ojos cerrados	65	45865
+251.23	0	Ojos abiertos	66	50246
+268.73	0	Ojos cerrados	65	53746
+288.185	0	Ojos abiertos	66	57637
+296.865	0	discontinuity	2	59373
+312.92	0	Ojos cerrados	65	62584
+318.79	0	Hiperventilacion 1	67	63758
+385.135	0	Hiperventilacion 2	68	77027
+457.605	0	Hiperventilacion 3	69	91521
+518.345	0	Hiperventilacion OA	74	103669
+582.855	0	Recuperacion	70	116571
