@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007864-blue)](https://doi.org/10.82901/nemar.on007864)
+
 Erythropoietin (EPO) and EPO-derived formulations have been proposed as neuroprotective and neuromodulatory agents with 
 pleiotropic actions that extend beyond erythropoiesis, including anti-inflammatory and anti-oxidative effects, modulation of apoptosis-
 related signaling, and support of cellular resilience under stress (Maiese et al., 2005; Rey et al., 2019). In Parkinson's disease-relevant 
