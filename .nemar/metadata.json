@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "Neuroepo multisession Phase II and III",
-  "description": "A randomized, placebo-controlled clinical trial investigating the neuroprotective and neuromodulatory effects of intranasal NeuroEPO (erythropoietin) in Parkinson's disease patients. The dataset comprises multisession EEG recordings and clinical assessments collected at baseline (pre-intervention) and 9 months post-intervention, with the goal of examining whether NeuroEPO-related cognitive and motor effects are mediated by changes in EEG source activity. This Phase II/III study provides evidence for functional brain reorganization mechanisms underlying EPO treatment in neurodegenerative disease.",
-  "methods_description": "Participants were enrolled in a randomized, placebo-controlled design with NeuroEPO administered intranasally according to protocol (Cuban Public Registry RPCEC00000233-En) or placebo. Clinical and EEG assessments were conducted at baseline (pre-intervention) and 9 months post-intervention. Motor performance was assessed using the Unified Parkinson Disease Rating Scale MDS UPDRS III by certified neurologists. Baseline demographic and clinical characteristics included age, education, disease duration, and motor severity.",
+  "description": "A randomized, placebo-controlled clinical trial investigating the neuroprotective and neuromodulatory effects of intranasal NeuroEPO (erythropoietin) in Parkinson's disease patients. The dataset comprises multisession EEG recordings and clinical assessments collected at two timepoints: baseline (pre-intervention) and 9-month post-intervention, with the goal of examining whether NeuroEPO-related cognitive and motor effects are mediated by changes in EEG source activity and brain function.",
+  "methods_description": "Participants were enrolled in a randomized, placebo-controlled study with NeuroEPO administered intranasally according to protocol (Cuban Public Registry RPCEC00000233-En) or placebo. Clinical and EEG assessments were conducted at baseline (pre-intervention) and after 9 months of intervention completion. Motor performance was assessed using the Unified Parkinson Disease Rating Scale MDS UPDRS III by certified neurologists. Cumulative treatment exposure was quantified as total NeuroEPO dose. EEG source localization analysis was performed to examine changes in brain activity as potential mediators of clinical outcomes.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,20 +16,22 @@
       "term": "EEG"
     },
     {
-      "term": "Parkinson's disease",
-      "subject_scheme": "MeSH"
+      "term": "Parkinson's disease"
     },
     {
-      "term": "erythropoietin",
-      "subject_scheme": "MeSH"
+      "term": "erythropoietin"
     },
     {
-      "term": "neuroprotection",
-      "subject_scheme": "MeSH"
+      "term": "NeuroEPO"
     },
     {
-      "term": "randomized controlled trial",
-      "subject_scheme": "MeSH"
+      "term": "neuroprotection"
+    },
+    {
+      "term": "randomized controlled trial"
+    },
+    {
+      "term": "placebo-controlled"
     },
     {
       "term": "source localization"
@@ -38,22 +40,24 @@
       "term": "motor assessment"
     },
     {
-      "term": "intranasal administration",
-      "subject_scheme": "MeSH"
+      "term": "clinical trial"
     },
     {
-      "term": "neurodegenerative disease",
-      "subject_scheme": "MeSH"
+      "term": "Phase II"
+    },
+    {
+      "term": "Phase III"
+    },
+    {
+      "term": "UPDRS"
+    },
+    {
+      "term": "source reconstruction"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on007864",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007864",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -66,6 +70,11 @@
       "identifier": "10.18112/openneuro.ds007864.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007864",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -79,7 +88,7 @@
     "eeg"
   ],
   "sizes": [
-    "0.0 KB (91 files)"
+    "498.4 MB (91 files)"
   ],
   "formats": [
     ".edf",
