@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Neuroepo multisession Phase II and III",
-  "description": "A randomized, placebo-controlled clinical trial investigating the neuroprotective and neuromodulatory effects of intranasal NeuroEPO (erythropoietin) in Parkinson's disease patients. The dataset comprises multisession EEG recordings and clinical assessments collected at two timepoints: baseline (pre-intervention) and 9-month post-intervention, with the goal of examining whether NeuroEPO-related cognitive and motor effects are mediated by changes in EEG source activity and brain function.",
-  "methods_description": "Participants were enrolled in a randomized, placebo-controlled study with NeuroEPO administered intranasally according to protocol (Cuban Public Registry RPCEC00000233-En) or placebo. Clinical and EEG assessments were conducted at baseline (pre-intervention) and after 9 months of intervention completion. Motor performance was assessed using the Unified Parkinson Disease Rating Scale MDS UPDRS III by certified neurologists. Cumulative treatment exposure was quantified as total NeuroEPO dose. EEG source localization analysis was performed to examine changes in brain activity as potential mediators of clinical outcomes.",
+  "description": "Multisession EEG and clinical dataset from a randomized, placebo-controlled study of intranasal NeuroEPO (an erythropoietin formulation) in patients with Parkinson's disease. Participants were assessed at baseline and 9 months after the intervention, with cumulative NeuroEPO dose quantified and placebo coded as zero. The dataset supports analysis of treatment exposure, EEG-derived measures, and motor outcomes (MDS-UPDRS III).",
+  "methods_description": "Participants were enrolled in a randomized, placebo-controlled trial (Cuban Public Registry of Clinical Trials RPCEC00000233). Clinical and EEG assessments were performed at baseline (pre-intervention) and 9 months after completing the intervention. Motor status was rated by two certified neurologists using MDS-UPDRS III. Cumulative NeuroEPO dose was recorded, with placebo coded as dose = 0.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,43 +16,23 @@
       "term": "EEG"
     },
     {
-      "term": "Parkinson's disease"
+      "term": "Parkinson Disease",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
     },
     {
-      "term": "erythropoietin"
+      "term": "Erythropoietin",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004921"
     },
     {
       "term": "NeuroEPO"
     },
     {
-      "term": "neuroprotection"
-    },
-    {
       "term": "randomized controlled trial"
     },
     {
-      "term": "placebo-controlled"
-    },
-    {
-      "term": "source localization"
-    },
-    {
-      "term": "motor assessment"
-    },
-    {
-      "term": "clinical trial"
-    },
-    {
-      "term": "Phase II"
-    },
-    {
-      "term": "Phase III"
-    },
-    {
-      "term": "UPDRS"
-    },
-    {
-      "term": "source reconstruction"
+      "term": "neuroprotection"
     }
   ],
   "related_identifiers": [
@@ -88,7 +68,7 @@
     "eeg"
   ],
   "sizes": [
-    "498.4 MB (91 files)"
+    "475 MB (91 files)"
   ],
   "formats": [
     ".edf",
